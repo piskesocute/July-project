@@ -1,0 +1,230 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0 auto;
+}
+
+header {
+  max-width: 100%;
+  background-image: url('../img/banner.png');
+  background-position: center center;
+  background-size: cover;
+  padding-top: 308px;
+  padding-bottom: 308px;
+  margin: 0 auto;
+  color: #FFF;
+  font-style: italic;
+  font-weight: 400;
+  height: calc(100vh - 616px);
+  border: 1px solid #707070;
+}
+
+.title {
+  max-width: 304px;
+  margin: 0 auto;
+}
+
+header h5 {
+  font-size: 24px;
+  line-height: 42px;
+
+}
+
+header h1 {
+  font-size: 80px;
+  line-height: 106px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+header p {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+header ul {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-media img{
+  max-width: 100%;
+  height: auto;
+}
+
+.about {
+  max-width: 100%;
+  height: cale(100vh - 84px);
+  padding-top: 56px;
+  padding-bottom: 28px;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.about h2 {
+  font-size: 64px;
+  line-height: 84px;
+  font-weight: 500;
+}
+
+.photo{
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.user-info{
+  margin-top: 20px;
+
+  margin: 0 auto;
+  /* border-bottom: 1px solid #000; */
+}
+.user-info hr{
+  margin: 0 auto;
+  max-width: 384px;
+}
+.user-info li{
+  font-size: 24px;
+  line-height: 42px;
+  margin-bottom: 4px;
+}
+.user-info .university{
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+.work-experience{
+  margin: 0 auto;
+  padding-top: 28px ;
+  font-size: 24px;
+  line-height: 42px;
+}
+.work-experience li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 28px;
+}
+.circle{
+  background-color: #891818 ;
+  padding-top: 22px;
+  padding-left: 22px;
+  border-radius: 11px;
+  margin-left: 4px;
+  margin-right: 16px;
+}
+main{
+  background-color:#000000 ;
+  border-top: 1px solid #707070;
+  border-bottom: 1px solid #707070;
+  color: #FFF;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 56px;
+  padding-bottom: 160px;
+  font-style: italic;
+}
+.project-info{
+  margin: 0 auto;
+}
+.project-info h2{
+  font-size: 64px;
+  line-height: 84px;
+}
+.project-info h6{
+  margin-top: 12px;
+  margin-bottom: 32px;
+  font-size: 24px;
+  line-height: 42px;
+}
+.project-info p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 68px;
+}
+
+.project-photo img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.project-photo-block1{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 40px ;
+  
+
+}
+.project-photo-block2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.other{
+  padding-top: 56px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 96px;
+}
+.other h2{
+  font-size: 64px;
+  line-height: 84px;
+  margin-bottom: 16px;
+}
+.other>p{
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 56px;
+}
+.other-project{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.card{
+  text-align: center;
+}
+.card img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 16px;
+}
+.card p {
+  font-size: 20px;
+  line-height: 42px;
+  margin-bottom: 48px;
+}
+footer{
+  background-color: #000000;
+  color: #FFF;
+  padding-top: 64px;
+  padding-bottom: 48px;
+  text-align: center;
+  font-style: italic;
+}
+footer h2{
+  font-size: 64px;
+  line-height: 84px;
+  margin-bottom: 16px;
+}
+footer p{
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+footer a{
+  color: #fff;
+  text-decoration: none;
+}
+footer a:hover{
+  transition:0.5s;
+  color: #070bfd;
+}
